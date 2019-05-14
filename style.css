@@ -1,0 +1,129 @@
+
+body {
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+}
+
+section {
+    margin: 50px;
+    display: flex;
+}
+
+.dark-background {
+    background: #121212;
+}
+
+.light-background {
+    background-color: #fffdf1;
+}
+
+#landing {
+    width: 100%;
+    height: 100vh;
+    margin: -70px -8px 0px -8px;
+    padding: 3vw 6vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #f8f8ed;
+}
+
+#myName
+{
+    position: relative;
+	font-size: 7vw;
+    margin-bottom: -5px;
+    animation-name: move-right;
+    animation-duration: 1.5s;
+}
+
+@keyframes move-right {
+   0% {
+        left: -150px;
+   }
+   100% {
+        left: 0px;
+   }
+}
+
+#Karen
+{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    align-self: center;
+	text-align: center;
+	margin-bottom: -30px;
+	-webkit-text-fill-color: #121212;
+	-webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: #f8f8ed;
+    white-space: nowrap;
+    font-size: 14vw;
+    animation-name: shrink;
+    animation-duration: 1.5s;
+}
+
+@keyframes shrink {
+    0% {
+        font-size: 18vw;
+    }
+    100% {
+        font-size: 14vw;
+    }
+}
+
+#csStudent
+{
+    position: relative;
+	margin-left: 55%;
+    font-size: 3vw;
+    white-space: nowrap;
+    animation-name: move-left;
+    animation-duration: 1.5s;
+}
+
+@keyframes move-left {
+    0% {
+        left: 0;
+   }
+    100% {
+        left: 0;
+   }
+}
+
+#intro {
+    margin: 0;
+    padding: 50px;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 50px;
+}
+
+#garden {
+    /* Denotes spacing inside of your border */
+    padding: 20px 40px 20px 0;
+    width: 650px;
+    height: 400px;
+    /* Prevent your picture from being squished within the sizes you set */
+    object-fit: cover;
+}
+
+#aboutMe {
+    margin: -20px -10px -13px -10px;
+    padding: 0 30px;
+    flex-direction: column;
+    color: #ffe9e9;
+}
+
+#OC {
+    height: 500px;
+    width: 800px;
+    /* flex-box properties */
+    align-self: center;
+    object-fit: cover;
+}
+
+#footer {
+    font-size: 40px;
+}
+

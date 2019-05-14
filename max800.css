@@ -1,0 +1,14 @@
+/* If screen width is 800px or less, apply this css code */
+ 
+
+    #intro {
+        flex-direction: column;
+        font-size: 25px;
+    }
+    #garden {
+        width: 85vw;
+    }
+    #OC {
+        width: 90%;
+        height: 400px;
+    }

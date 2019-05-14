@@ -1,0 +1,15 @@
+
+body {
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+}
+
+section {
+    margin: 100px 40% 0px 50px;
+    display: flex;
+}
+
+#education {
+    flex-direction: column; 
+}

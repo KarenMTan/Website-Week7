@@ -1,0 +1,26 @@
+/* You can separate each of your style sheets by page to keep yourself organized
+    Remember to link style sheets to your html! */
+
+/* These psuedo selectors allow me to highlight the nagivation bar menu item when my mouse is hovering */
+/* I also use the "active" class to highlight the active page */
+li a:hover, .active {
+    background-color: #c5b100;
+}
+
+.nav-bar {
+    background-color: #121212;
+    margin: 0 0 0 -10px;
+    padding: 15px 5px;
+    list-style-type: none;
+    display: flex;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.nav-bar li a {
+    padding: 15px;
+    text-decoration: none;
+    flex-direction: row;
+    color: white;
+}
